@@ -90,7 +90,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/google-analytics',
+    '@abbo/nuxt-google-analytics',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
     [
@@ -103,7 +103,8 @@ module.exports = {
   ],
 
   googleAnalytics: {
-    id: 'G-5G64B7TQRG'
+    id: 'G-5G64B7TQRG',
+    useGtag: true
   },
 
   styleResources: {

@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@abbo/nuxt-google-analytics@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@abbo/nuxt-google-analytics/-/nuxt-google-analytics-2.5.0.tgz#f851db6762cf9cd9c042e5c0b61bddb96751d487"
+  integrity sha512-0LlG+Gy1Uj8axZ9PxBD+1yJ16VZOR+LdCuIvqR7++sGNYl98Xw3L/EUdDdKyB1w8BvfZ51q6zUcAMLYxVvrEZw==
+  dependencies:
+    vue-analytics "^5.22.1"
+    vue-gtag "^1.16.1"
+
 "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1021,13 +1029,6 @@
   integrity sha512-S87xiF9d7WFOWPtcPSGz6T8dnV6wmUDy3W3pN35OhCYtXtav4jS27AySowx1fqk2fl7pPJW5GgTrwSHSKGCB7Q==
   dependencies:
     lru-cache "^5.1.1"
-
-"@nuxtjs/google-analytics@^2.2.0":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.2.3.tgz#05496c5a33ce4dc4f9ef6838d432ed501a307778"
-  integrity sha512-dPwgsRNECtZqHdmnbJRFy3T4DDVakrpeN7vM1DwAIV1FXYlIBMKvdi8nt1v8TPU4IZdaoXrQodfeNMCooPo/7g==
-  dependencies:
-    vue-analytics "^5.22.1"
 
 "@nuxtjs/pwa@^3.0.0-beta.16":
   version "3.0.0-beta.20"
@@ -8345,6 +8346,11 @@ vue-client-only@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
+
+vue-gtag@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.16.1.tgz#edb2f20ab4f6c4d4d372dfecf8c1fcc8ab890181"
+  integrity sha512-5vs0pSGxdqrfXqN1Qwt0ZFXG0iTYjRMu/saddc7QIC5yp+DKgjWQRpGYVa7Pq+KbThxwzzMfo0sGi7ISa6NowA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
